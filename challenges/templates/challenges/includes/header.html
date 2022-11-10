@@ -1,0 +1,10 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static "challenges/includes/header.css" %}">
+
+<header>
+    <nav>
+    <a href="{% url "index" %}">All challenges</a> 
+  </nav>
+  {{ month| title }}
+</header> 
